@@ -4,7 +4,7 @@ metadata:
   name: wordpress-deployment
   namespace: myreposync
 spec:
-  replicas: 1
+  replicas: 2
   selector: 
     matchLabels:
       app: wordpress
